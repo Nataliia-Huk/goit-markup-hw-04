@@ -139,7 +139,7 @@ svg {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 10px;
+  gap: 30px;
 }
 .header__contact {
   padding-top: 32px;
@@ -156,12 +156,12 @@ svg {
   color: var(--logo-main-color);
 }
 
-.header__contacts-one:hover .header__icon-one,
+.header__contact-one:hover .header__icon-one,
 .header__contacts-one:focus .header__icon-one {
   fill: var(--logo-main-color);
 }
-.header__contacts-two:hover .header__icon-two,
-.header__contacts-two:focus .header__icon-two {
+.header__contact-two:hover .header__icon-two,
+.header__contact-two:focus .header__icon-two {
   fill: var(--logo-main-color);
 }
 /*---------------------------------HERO-----------------------------*/
