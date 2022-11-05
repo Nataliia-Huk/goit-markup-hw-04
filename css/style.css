@@ -142,6 +142,9 @@ svg {
   gap: 30px;
 }
 .header__contact {
+  display: flex;
+  align-items: center;
+  gap: 10px;
   padding-top: 32px;
   padding-bottom: 32px;
   font-weight: 500;
