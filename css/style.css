@@ -88,8 +88,6 @@ svg {
 .header__inner {
   display: flex;
   align-items: center;
-  padding-top: 24px;
-  padding-bottom: 32px;
 }
 
 .header__menu {
@@ -97,11 +95,6 @@ svg {
   gap: 50px;
 }
 
-.header__contacts {
-  display: flex;
-  margin-left: auto;
-  gap: 50px;
-}
 .logo {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
@@ -137,14 +130,17 @@ svg {
 }
 .header__contacts {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  margin-left: auto;
   gap: 30px;
 }
+.header__contacts-item {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.header__icon {
+  margin-right: 10px;
+}
 .header__contact {
-  display: flex;
-  align-items: center;
-  gap: 10px;
   padding-top: 32px;
   padding-bottom: 32px;
   font-weight: 500;
