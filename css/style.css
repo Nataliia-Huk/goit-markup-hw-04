@@ -157,7 +157,7 @@ svg {
 }
 
 .header__contact-one:hover .header__icon-one,
-.header__contacts-one:focus .header__icon-one {
+.header__contact-one:focus .header__icon-one {
   fill: var(--logo-main-color);
 }
 .header__contact-two:hover .header__icon-two,
