@@ -213,7 +213,7 @@ svg {
 .hero__button {
   padding: 10px 32px;
 }
-
+/* --------------------------------ADVANTAGES ----------------------*/
 .advantages__list {
   display: flex;
   flex-wrap: wrap;
@@ -256,7 +256,7 @@ svg {
   color: var(--text-second-color);
   margin-bottom: 10px;
 }
-
+/* --------------------------------DESIGN ----------------------*/
 .design {
   padding-top: 0;
 }
@@ -275,7 +275,7 @@ svg {
 .design__title {
   margin-bottom: 50px;
 }
-
+/* --------------------------------TEAM ----------------------*/
 .team {
   background-color: var(--bcg-team-color);
 }
@@ -335,7 +335,7 @@ svg {
   padding: 12px;
   border-radius: 50%;
 }
-
+/* --------------------------------CLIENTS ----------------------*/
 .clients__title {
   margin-bottom: 50px;
   font-size: 36px;
@@ -366,6 +366,7 @@ svg {
   padding: 16px 31px;
   border: 1px solid;
 }
+/* --------------------------------PORTFOLIO ----------------------*/
 .portfolio__title-hidden {
   position: absolute;
   white-space: nowrap;
@@ -434,6 +435,7 @@ svg {
   font-size: 18px;
   line-height: 2;
 }
+/* --------------------------------FOOTER ----------------------*/
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
