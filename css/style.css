@@ -155,12 +155,8 @@ svg {
   color: var(--logo-main-color);
 }
 
-.header__contact-one:hover .header__icon-one,
-.header__contact-one:focus .header__icon-one {
-  fill: var(--logo-main-color);
-}
-.header__contact-two:hover .header__icon-two,
-.header__contact-two:focus .header__icon-two {
+.header__contact:hover .header__icon,
+.header__contact:focus .header__icon {
   fill: var(--logo-main-color);
 }
 /*---------------------------------HERO-----------------------------*/
@@ -313,18 +309,20 @@ svg {
   justify-content: center;
   gap: 10px;
 }
-.team__icons-item {
+.team__icons-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 44px;
   height: 44px;
-  padding: 12px;
   border-radius: 50%;
 }
-.team__icons-item:hover .team__icon,
-.team__icons-item:focus .team__icon {
+.team__icons-link:hover .team__icon,
+.team__icons-link:focus .team__icon {
   fill: var(--logo-third-color);
 }
-.team__icons-item:hover,
-.team__icons-item:focus {
+.team__icons-link:hover,
+.team__icons-link:focus {
   background-color: var(--logo-main-color);
   width: 44px;
   height: 44px;
