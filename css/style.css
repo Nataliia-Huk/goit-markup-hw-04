@@ -479,15 +479,17 @@ svg {
   flex-wrap: wrap;
   gap: 10px;
 }
-.footer__icons-item {
+.footer__icons-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 44px;
   height: 44px;
-  padding: 12px;
   border-radius: 50%;
   background-color: var(--icon-bcg-color);
 }
-.footer__icons-item:hover,
-.footer__icons-item:focus {
+.footer__icons-link:hover,
+.footer__icons-link:focus {
   background-color: var(--logo-main-color);
 }
 .footer__icon {
